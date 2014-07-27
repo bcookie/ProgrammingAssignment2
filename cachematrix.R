@@ -7,7 +7,13 @@ cachematrix <-function(x){
   
   ## makeCacheMatrix(x)
 }
-## Write a short comment describing this function
+## The function, makeVector creates a special "matrix",
+## which is really a maxtrix containing a function to:
+##  1.set the value of the matrix
+##  2.get the value of the matrix
+##  3.set the value of the inverse
+##  4.get the value of the inverse
+
 
 makeCacheMatrix <- function(x) {
   
@@ -26,7 +32,10 @@ makeCacheMatrix <- function(x) {
 }
 
 
-## Write a short comment describing this function
+## This function checks to see if the inverse of the
+## matrix has already been solved and cached.  If so
+## it says it's "getting the cached data" and presents
+## the result. If not, the result is calculated.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
